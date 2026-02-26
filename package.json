@@ -1,0 +1,27 @@
+{
+  "name": "fullstackopen-part3",
+  "version": "1.0.0",
+  "description": "Phonebook backend",
+  "homepage": "https://github.com/Romaric-py/fullstackopen-part3#readme",
+  "bugs": {
+    "url": "https://github.com/Romaric-py/fullstackopen-part3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romaric-py/fullstackopen-part3.git"
+  },
+  "license": "MIT",
+  "author": "Ifede Assogba",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  }
+}

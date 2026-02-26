@@ -1,0 +1,19 @@
+GET http://localhost:3000/info
+
+###
+GET http://localhost:3000/api/persons
+
+###
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+    "name": "Charles Babbage",
+    "number": "15-85-9555"
+}
+
+###
+GET http://localhost:3000/api/persons/1
+
+###
+DELETE http://localhost:3000/api/persons/1
